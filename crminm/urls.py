@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.urls import path
-from .usuarios.views import ListaYCreaUsuario, DetalleUsuario
+from usuarios.views import ListaYCreaUsuario, DetalleUsuario  # <-- cambio aquí
 
 urlpatterns = [
     path('admin/', admin.site.urls),
